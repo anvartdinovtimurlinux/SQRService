@@ -9,6 +9,7 @@ class SQRServiceTest {
 
     @ParameterizedTest
     @CsvSource(value = {
+            "'Begin less checked range, End more checked range',0,10000,90",
             "'Begin and End less checked range',0,90,0",
             "'Begin less checked range, End equals minimum range limit',0,100,1",
             "'Begin less checked range, End in checked range',0,300,8",
